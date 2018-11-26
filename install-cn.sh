@@ -97,7 +97,7 @@ yum install wget which curl git virt-what -y
 setenforce 0
 sed -i 's/SELINUX=enforcing/SELINUX=permissive/g' /etc/selinux/config
 cd ~
-git clone https://github.com/jimorsm/cyberpanel.git
+git clone https://github.com/tiredbug/cyberpanel.git
 cd cyberpanel/install-cn
 chmod +x install.py
 server_ip="$(wget -qO- http://whatismyip.akamai.com/)"
