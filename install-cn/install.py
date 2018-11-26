@@ -213,7 +213,7 @@ class preFlightsChecks:
             elif version >= 6:
                 cmd.append("rpm")
                 cmd.append("-ivh")
-                cmd.append("http://rpms.litespeedtech.com/centos/litespeed-repo-1.1-1.el6.noarch.rpm")
+                cmd.append("https://rpms.litespeedtech.com/centos/litespeed-repo-1.1-1.el6.noarch.rpm")
                 res = subprocess.call(cmd)
 
             if res == 1:
